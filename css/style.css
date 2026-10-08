@@ -1,0 +1,71 @@
+
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+h1 {
+    color: #2C3E50;
+    font-size: 32px;
+}
+
+
+h2 {
+    color: red;
+    font-size: 26px;   
+}
+
+/* בvisit.html article שב artist.html  הצבע של h2 יהיה אפור הכיתוב יופיע באדום וב */
+/* משום שהניקוד של class גבוה מהניקוד של <h2> לבדו */
+
+.artist-card h2{
+    color: #5D6D7E;
+    font-size: 26px;
+}
+
+nav a{
+    text-transform: uppercase; 
+    font-weight: bold;
+}
+
+/*1*/
+footer {
+    background-color: #2C3E50;
+    color: #F5F0E8;
+}
+
+.artist-card {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #D5D8DC;
+    border-radius: 10px;
+    background-color: #F8F6F2;
+
+}
+
+/*10*/
+.thumbnail {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border: 2px solid #2C3E50;
+    border-radius: 8px;
+}
+
+
+section#LeonardodaVinci h2 {
+    color: #2C3E50;
+}
+
+/*1 + 100 + 1*/
+section#Rembrandt h2 {
+    color: #8B4513;
+}
+
+/*1+ 100 + 1*/
+section#EugeneDelacroix h2 {
+    color: #6A5ACD;
+}
